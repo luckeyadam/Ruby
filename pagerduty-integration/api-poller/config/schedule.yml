@@ -4,4 +4,4 @@ pagerduty_cron:
   class: "EndpointWorker"
   args:
     api_url: "https://api.pagerduty.com/incidents"
-    token: "GxbsvX4kbYja_nX7ZTqt"
+    token: Rails.application.credentials.pagerduty_key
