@@ -1,0 +1,2 @@
+class EndpointAlertsController < ApplicationController
+end

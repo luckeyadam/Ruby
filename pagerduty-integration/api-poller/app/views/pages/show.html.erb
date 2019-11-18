@@ -1,0 +1,21 @@
+<header>
+    <script>
+    $(".nav li").hover(function () {
+        $(this).children("ul").stop().delay(200).animate({height: "toggle", opacity: "toggle"}, 200);
+    });
+
+    </script>
+</header>
+
+
+
+<!-- Start of Alert Form -->
+<%= render 'endpoint_configs/config_form' %>
+<!-- End of Alert Form -->
+
+<br>
+<div id="endpoint_alerts" data-endpoint-config-id="<%= @endpoint_config.id %>">
+  <!-- Start of Alert List -->
+  <%= render @endpoint_config.endpoint_alerts %>
+  <!-- End of Alert List -->
+</div>

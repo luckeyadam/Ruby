@@ -1,0 +1,2 @@
+class IntegrationAlertsController < ApplicationController
+end

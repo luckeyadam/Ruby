@@ -1,0 +1,2 @@
+module EndpointConfigsHelper
+end

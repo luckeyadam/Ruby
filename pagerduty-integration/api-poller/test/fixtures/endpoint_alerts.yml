@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  identifier: MyString
+  title: MyString
+  description: MyString
+  status: MyString
+  endpoint_config: one
+
+two:
+  identifier: MyString
+  title: MyString
+  description: MyString
+  status: MyString
+  endpoint_config: two
